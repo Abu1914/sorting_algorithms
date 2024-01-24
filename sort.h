@@ -30,5 +30,8 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 int l_partition(int *array, int low, int high, size_t size);
 void cocktail_sort_list(listint_t **list);
+void merge_sub(int *subarray, int *buffer, size_t end, size_t mid, size_t strt);
+void merge_sort_call(int *subarray, int *buffer, size_t end, size_t strt);
+void merge_sort(int *array, size_t size);
 
 #endif
